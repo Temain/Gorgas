@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Личный кабинет управляющей компании</title>
+	<link href="css/demo.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,600' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/style.css">	
+	<link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="container topbottom">
+		<div class="row">
+			<div class="col-md-4 menu">
+				<img src="img/logo_big.png" alt="Profile Avatar" class="gorgas-logo">
+				<div class="navigation">
+					<div>
+						<ul>
+							<li>
+								<i class="fa fa-power-off menu-item" aria-hidden="true"></i>
+								<a href="#">Выход</a>
+							</li>
+						</ul>
+					</div>
+				</div> 			
+			</div>
+			<div class="col-md-8 homeabout">
+				<div class="person">
+					<span class="name">Редактирование информации о компании</span>
+					<div class="font16">[Администратор]</div>
+				</div>
+				<div class="desciption home">
+					<div class="row form-group" style="margin-bottom: 2em;">
+						<a href="admin.html" class="btn btn-primary"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-4"><strong>Наименование</strong></div>
+						<div class="col-md-8">
+							<textarea class="form-control input-lg" value="Управляющая компания #1">Управляющая компания #1</textarea>
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-4"><strong>Тип управления</strong></div>
+						<div class="col-md-8">
+							<select class="form-control input-lg">
+								<option>Управляющая компания</option>
+								<option>ТСЖ</option>
+							</select>
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-4"><strong>Адрес</strong></div>
+						<div class="col-md-8">
+							<input class="form-control input-lg" value="ул. Ленина д.26"></input>
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-4"><strong>Контактный номер</strong></div>
+						<div class="col-md-8">
+							<input class="form-control input-lg" value="+7(918)652-42-18"></input>
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-4"><strong>Дата договора</strong></div>
+						<div class="col-md-8">
+							<input class="form-control input-lg" value="22.07.2016"></input>
+						</div>
+					</div>
+					<div class="row form-group">
+						<div class="col-md-4"><strong>Статус</strong></div>
+						<div class="col-md-8">
+							<select class="form-control input-lg">
+								<option>Активен</option>
+								<option>Задолженность</option>
+								<option>Временно приостановлен</option>
+							</select>
+						</div>
+					</div>
+					<hr>
+					<a href="admin.html" class="btn btn-success btn-lg pull-right">Сохранить</a>
+				</div>	
+			</div>
+		</div>
+	</div>
+    <script src="node_modules/jquery/dist/jquery.min.js" type="text/javascript"></script>		
+</body>
+</html>	
